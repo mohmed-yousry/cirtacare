@@ -1,0 +1,129 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?bc7fao');
+  src:  url('fonts/icomoon.eot?bc7fao#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?bc7fao') format('truetype'),
+    url('fonts/icomoon.woff?bc7fao') format('woff'),
+    url('fonts/icomoon.svg?bc7fao#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-gps_fixed:before {
+  content: "\e901";
+}
+.icon-my_location:before {
+  content: "\e901";
+}
+.icon-phone:before {
+  content: "\f095";
+}
+.icon-user-o:before {
+  content: "\f2c0";
+}
+.icon-envelope-o:before {
+  content: "\f003";
+}
+.icon-close:before {
+  content: "\f00d";
+}
+.icon-remove:before {
+  content: "\f00d";
+}
+.icon-times:before {
+  content: "\f00d";
+}
+.icon-play-circle-o:before {
+  content: "\f01d";
+}
+.icon-align-justify:before {
+  content: "\f039";
+}
+.icon-map-marker:before {
+  content: "\f041";
+}
+.icon-play:before {
+  content: "\f04b";
+}
+.icon-arrow-up:before {
+  content: "\f062";
+}
+.icon-facebook-square:before {
+  content: "\f082";
+}
+.icon-facebook:before {
+  content: "\f09a";
+}
+.icon-facebook-f:before {
+  content: "\f09a";
+}
+.icon-arrow-circle-left:before {
+  content: "\f0a8";
+}
+.icon-arrow-circle-right:before {
+  content: "\f0a9";
+}
+.icon-angle-down:before {
+  content: "\f107";
+}
+.icon-smile-o:before {
+  content: "\f118";
+}
+.icon-gbp:before {
+  content: "\f154";
+}
+.icon-long-arrow-up:before {
+  content: "\f176";
+}
+.icon-tiktok:before {
+  content: "\e900";
+}
+.icon-mobile:before {
+  content: "\e958";
+}
+.icon-ctrl:before {
+  content: "\ea50";
+}
+.icon-paragraph-justify:before {
+  content: "\ea7a";
+}
+.icon-share2:before {
+  content: "\ea82";
+}
+.icon-facebook1:before {
+  content: "\ea90";
+}
+.icon-instagram:before {
+  content: "\ea92";
+}
+.icon-whatsapp:before {
+  content: "\ea93";
+}
+.icon-twitter:before {
+  content: "\ea96";
+}
+.icon-youtube:before {
+  content: "\ea9d";
+}
+.icon-linkedin:before {
+  content: "\eac9";
+}
+.icon-pinterest2:before {
+  content: "\ead2";
+}

@@ -1,0 +1,137 @@
+html {
+  scroll-behavior: smooth;
+}
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  font-size: large;
+}
+
+.custom-select {
+  position: relative;
+  font-family: Arial;
+}
+@media (max-width: 767px) {
+  .custom-select {
+    width: 80% !important;
+  }
+}
+
+
+/* .custom-select select {
+  display: none; /*hide original SELECT element:*/
+/* }  */
+
+/* .select-selected {
+  background-color: white ;
+  color: rgb(156 163 175) !important;
+}
+
+.select-selected:hover {
+  color: #149ada !important;
+} */
+
+
+
+/*style the arrow inside the select element:*/
+/* .select-selected.left:after {
+  position: absolute;
+  content: "";
+  top: 14px;
+  width: 0;
+  height: 0;
+  right: 10px;
+  border: 6px solid transparent;
+  border-color: black transparent transparent transparent !important;
+} */
+
+/* .select-selected.right::after {
+  position: absolute;
+  content: "";
+  top: 14px;
+  width: 0;
+  height: 0;
+  left: 10px;
+  border: 6px solid transparent;
+  border-color: #fff transparent transparent transparent;
+} */
+
+/*point the arrow upwards when the select box is open (active):*/
+/* .select-selected.select-arrow-active:after {
+  border-color: transparent transparent #fff transparent;
+  top: 7px;
+} */
+
+/*style the items (options), including the selected item:*/
+/* .select-items div,
+.select-selected {
+  color: #ffffff;
+  padding: 8px 16px;
+  border: 1px solid transparent;
+  border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+  cursor: pointer;
+  user-select: none;
+} */
+
+/*style items (options):*/
+/* .select-items {
+  position: absolute;
+  background-color: DodgerBlue;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 99;
+} */
+
+/*hide the items when the select box is closed:*/
+.select-hide {
+  display: none;
+}
+
+/* .select-items div:hover,
+.same-as-selected {
+  background-color: white;
+  color: #149ada;
+} */
+
+@media (min-width: 768px) {
+  .services .all-text-cards *:not(img) {
+    max-width: 95% !important;
+    white-space: initial !important;
+  }
+}
+@media (max-width: 767px) {
+  .services img {
+    width: 100% !important;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(#149ada,#131b39);
+  border-radius: 8px ;
+}
+
+body {
+  font-family: 'Cairo', sans-serif;
+}
+@media (max-width : 767px) {
+  .cover-content *{
+    font-size: calc(1.375rem + 1.5vw) !important;
+  }
+}
+
+@media (min-width : 1550px) {
+  .basic  .cards {
+    grid-template-columns: repeat(auto-fit , minmax(300px , 1fr)) !important ;
+  }
+}
+.basic  .cards .card:hover {
+transform: translateY(-1rem) !important;
+transition-duration: 0.1s !important;
+}
+
+.basic  .cards .card:hover a:nth-of-type(2) {
+  background-color: black;
+}
